@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JupyterPersistentConnectionParameters">
+    <option name="knownRemoteServers">
+      <list>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="token" value="d52e7d3e142a6109a60271f63efce81372e7179f062ea733" />
+          <option name="urlString" value="http://localhost:8888" />
+          <authParams2>
+            <map>
+              <entry key="token" value="d52e7d3e142a6109a60271f63efce81372e7179f062ea733" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+      </list>
+    </option>
     <option name="moduleParameters">
       <map>
         <entry key="$PROJECT_DIR$/.idea/Python Impressionador.iml">
           <value>
             <JupyterConnectionParameters>
-              <option name="managed" value="true" />
-              <option name="sdkName" value="Python 3.9" />
+              <option name="authType" value="notebook" />
+              <option name="token" value="d52e7d3e142a6109a60271f63efce81372e7179f062ea733" />
+              <option name="urlString" value="http://localhost:8888" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="d52e7d3e142a6109a60271f63efce81372e7179f062ea733" />
+                </map>
+              </authParams2>
             </JupyterConnectionParameters>
           </value>
         </entry>
