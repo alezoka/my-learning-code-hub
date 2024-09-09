@@ -1,3 +1,11 @@
+/*
+- O LIKE é usado junto com WHERE para procurar determinado padrão em uma coluna
+2 caracteres usados com LIKE WHERE: 
+% e _
+
+- O WHERE é um comando que vamos usar sempre que quisermos FILTRAR dados no SQL
+*/
+
 SELECT 
     COLUMN_NAME
 FROM
@@ -5,11 +13,6 @@ FROM
 WHERE
     TABLE_NAME = 'DimProduct'
 
-/*
-O LIKE é usado junto com WHERE para procurar determinado padrão em uma coluna
-2 caracteres usados com LIKE WHERE: 
-% e _
-*/
 
 -- Selecionando clientes que começa a PARTIR DE 'A'
 SELECT

@@ -14,6 +14,17 @@ FROM
 	DimStore
 ORDER BY
 	EmployeeCount
+/*Por padrão, o ORDER BY vai ordenar de forma ASCENDENTE*/
+
+-- Ordenando os valores a partir da coluna EmployeeCount, de forma ASCENDENTE
+SELECT
+	TOP(100)
+	StoreName, 
+	EmployeeCount
+FROM
+	DimStore
+ORDER BY
+	EmployeeCount ASC
 
 -- Ordenando os valores a partir da coluna EmployeeCount, de forma DECRESCENTE
 SELECT
@@ -60,5 +71,11 @@ que vai aparecer também, mas os valores vão tentar se ordenar de forma crescen
 
 
 
+SELECT TOP(10)
+	UnitCost
+FROM
+	DimProduct
+ORDER BY 
+	UnitCost DESC
 
 
