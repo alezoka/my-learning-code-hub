@@ -1,5 +1,5 @@
-# 🧩 Desenvolvendo o pensamento lógico
-#### Criei esse repositório pra colocar códigos de exercícios de lógica e códigos de aulas realizadas
+# 🧩 O que é My Learning Code Hub?
+#### É um espaço onde vou reunir os arquivos de aulas e exercícios que eu realizo ao longo da minha jornada na programação.  A ideia é manter os códigos em um único local para rápida consulta, revisão e backup.
 
 #### 🎯 Meta 1: 1 hora por dia tentando resolver qualquer problema de lógica de programação (qualquer linguagem)  
 #### 🎯 Meta 2: Assistir as video aulas focando em codar mais. Entender o conceito e já aplicar na prática  
