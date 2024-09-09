@@ -1,4 +1,4 @@
-# 🧩 O que é My Learning Code Hub?
+# 🧩 O que é o My Learning Code Hub?
 #### É um espaço onde vou reunir os arquivos de aulas e exercícios que eu realizo ao longo da minha jornada na programação.  A ideia é manter os códigos em um único local para rápida consulta, revisão e backup.
 
 #### 🎯 Meta 1: 1 hora por dia tentando resolver qualquer problema de lógica de programação (qualquer linguagem)  
