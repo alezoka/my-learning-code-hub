@@ -14,6 +14,16 @@ WHERE
     TABLE_NAME = 'DimProduct'
 
 
+-- Selecionando somente valores que sejam MAIOR que uma determinada condição
+SELECT 
+    ProductName,
+    UnitPrice
+FROM
+    DimProduct
+WHERE
+    UnitPrice >= 1000
+
+-- :Breakpoint
 -- Selecionando clientes que começa a PARTIR DE 'A'
 SELECT
     FirstName
@@ -78,5 +88,4 @@ FROM
     DimProduct
 WHERE
     ProductName LIKE '%Black%'
-
 

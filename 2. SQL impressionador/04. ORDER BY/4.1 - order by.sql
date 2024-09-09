@@ -70,12 +70,16 @@ ORDER BY
 que vai aparecer também, mas os valores vão tentar se ordenar de forma crescente se possível*/
 
 
-
-SELECT TOP(10)
-	UnitCost
+-- Ordenando valores com base em 2 ou mais colunas
+SELECT TOP(10) 
+	UnitCost,
+	ProductName,
+	Weight
 FROM
 	DimProduct
 ORDER BY 
-	UnitCost DESC
-
-
+	UnitCost DESC,
+	Weight DESC
+/*
+- Essa forma de ordenação é útil para fazer DESEMPATES na ordenação, pois o valor da 2º coluna geralmente vai se diferenciar e isso gera o desempate caso os valores da 1º coluna sejam iguais
+*/
