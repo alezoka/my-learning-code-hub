@@ -24,6 +24,7 @@ WHERE
     UnitPrice >= 1000
 
 -- :Breakpoint
+
 -- Selecionando clientes que começa a PARTIR DE 'A'
 SELECT
     FirstName
