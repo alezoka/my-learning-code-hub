@@ -83,3 +83,5 @@ ORDER BY
 /*
 - Essa forma de ordenação é útil para fazer DESEMPATES na ordenação, pois o valor da 2º coluna geralmente vai se diferenciar e isso gera o desempate caso os valores da 1º coluna sejam iguais
 */
+
+-- já passei todo conteúdo acima pro remnote

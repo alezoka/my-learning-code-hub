@@ -13,6 +13,20 @@ FROM
 WHERE
     TABLE_NAME = 'DimProduct'
 
+SELECT DISTINCT
+    BrandName
+FROM 
+    DimProduct
+
+-- Selecionando valores que sejam exatamente iguais a um texto fornecido
+SELECT 
+    *
+FROM
+    DimProduct
+WHERE
+    BrandName = 'Fabrikam'
+
+
 
 -- Selecionando somente valores que sejam MAIOR que uma determinada condição
 SELECT 
@@ -23,7 +37,6 @@ FROM
 WHERE
     UnitPrice >= 1000
 
--- :Breakpoint
 
 -- Selecionando clientes que começa a PARTIR DE 'A'
 SELECT
@@ -90,3 +103,32 @@ FROM
 WHERE
     ProductName LIKE '%Black%'
 
+/*A diferença de fazer o filtro com LIKE e com = é que:
+LIKE filtra somente produtos que CONTENHA o texto entre aspas
+= Filtra exatamente os produtos que tenha como nome o exato texto em si, por isso que a query abaixo não retornou nada*/
+SELECT 
+    ProductName
+FROM
+    DimProduct
+WHERE 
+    ProductName = 'Black'
+
+--Selecionando clientes que nasceram após uma determinada data
+SELECT
+    COLUMN_NAME
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'DimCustomer'
+
+SELECT 
+    BirthDate
+FROM
+    DimCustomer
+WHERE
+    BirthDate >= '1970-12-31' 
+ORDER BY
+    BirthDate DESC
+/*Pra usar ASC e DESC você tem que usar DENTRO do ORDER BY*/
+
+-- já passei todo conteúdo acima pro remnote
