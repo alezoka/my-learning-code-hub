@@ -65,3 +65,4 @@ SELECT
 FROM
     DimProduct
 
+-- já passei tudo acima pro remnote

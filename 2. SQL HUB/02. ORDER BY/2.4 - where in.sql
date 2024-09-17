@@ -93,3 +93,5 @@ FROM
     DimEmployee
 WHERE
     DepartmentName IN ('Marketing', 'Production Control', 'Sakes')
+
+-- já passei tudo acima para o remnote

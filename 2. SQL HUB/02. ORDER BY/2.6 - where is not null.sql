@@ -41,3 +41,6 @@ FROM
     DimCustomer
 WHERE
     CompanyName IS NOT NULL
+
+
+-- já passei tudo acima pro remnote

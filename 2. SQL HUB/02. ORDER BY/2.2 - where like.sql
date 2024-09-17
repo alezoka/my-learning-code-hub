@@ -164,3 +164,5 @@ FROM
     DimProduct
 WHERE
     ProductDescription LIKE 'Type%'
+
+-- já passei tudo acima pro remnote
