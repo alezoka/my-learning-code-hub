@@ -30,3 +30,4 @@ Nome composto: DEVE sempre usar aspas -> Ex: AS 'Produto novo'
 Aspas DUPLAS vai funcionar também
 */
 
+-- Já passei tudo acima pro remnote
