@@ -20,10 +20,7 @@
 
         $nome = "Alexandre";
         $idade = "24";
-        echo "O ". $nome. " tem ". $idade. " anos"; 
-        
-        
-        $double = (double) "107.65";
+        echo "O ". $nome. " tem ". $idade. " anos";         
 
     ?>
 </div>
