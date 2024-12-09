@@ -30,7 +30,7 @@ $b = 15;
 
 === -> também testa se o conteúdo da variável A é igual o conteúdo da variável B; se a variável A for o inteiro 3 e a variável B for a string 3 o resultado será NEGATIVO (VAZIO), ou seja, mesmo sendo 3, como os valores são de TIPOS diferentes, o === não classificou como idênticos... para ser verdadeiro, tanto o valor quanto o tipo devem ser iguais */
 
-# operador UNÁRIO expressão?valor_verdadeiro:valor_falso
+# operador TERNÁRIO expressão?valor_verdadeiro:valor_falso
 //echo $a > $b?$a:$b;
 
 # é possível fazer atribuições usando operações unárias também
@@ -46,9 +46,9 @@ $situacao = $media>7 ? "aprovado":"recuperação";  // situação 3
 echo $situacao;
 echo "<br/>";
 
-/*você só pode usar o operador unário caso as variáveis da expressão sejam as mesmas das variáveis envolvidas na operação verdadeiro e falso (as que ficam entre :)  */
+/*você só pode usar o operador ternário caso as variáveis da expressão sejam as mesmas das variáveis envolvidas na operação verdadeiro e falso (as que ficam entre :)  */
 
-/*o operador unário não substitui a condicional IF, porque o unário só consegue fazer comparações BÁSICAS entre 2 coisas */
+/*o operador ternário não substitui a condicional IF, porque o unário só consegue fazer comparações BÁSICAS entre 2 coisas */
 
 # igual x identico
 $a = 3;

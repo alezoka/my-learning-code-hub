@@ -14,11 +14,11 @@ Leia um valor no formulário e mostre a sua raiz
 </head>
 <body>
     <div>
-        <form method="get" action="dados.php">
+        <form method="get" action="dados1.php">
             Valor: <input type="number" name="numero">
             <input type="submit" value="Calcular Raiz">
         </form>
 
     </div>
 </body>
-</html>
+</html> 
