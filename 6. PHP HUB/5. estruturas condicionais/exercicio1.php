@@ -2,6 +2,7 @@
 
 // 1)
 /* Ler o ano de nascimento de uma pessoa e dizer se ela pode votar e dirigir */
+
 $nome = $_GET["nome"];
 $ano = $_GET["ano"];
 $idade = date("Y") - $ano;
